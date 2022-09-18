@@ -27,3 +27,6 @@ Shortcomings:
 
 We are training the model using the sentiments of comments added in wikipedia revisions, to predict the price of next day. This approach may not be optimal because the average sentiment for a day or percentage of negative sentiment may not be a good proxy for the general market sentiment. There is a high chance that wikipedia page is edited after a huge price swing has already happened.
 Nevertheless, the approach used in this micro project is a good starting point to work further using a predictor that has a better causal relationship with Bitcoin prices.
+
+Details about code:
+The notebook 'btc_sentiments.ipynb' is for sentiment analysis of wikipedia revision comments and 'btc_prediction.ipynb' is for price prediction.
